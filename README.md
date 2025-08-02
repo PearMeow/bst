@@ -1,19 +1,23 @@
-<h1 align="center">Template</h1>
-Template for projects
+<h1 align="center">Binary Search Tree</h1>
+BST in JS
 
 Features
 --------
-- Some feature
-- A feature, and maybe more to come
+- [x] Tree class with root
+- [x] buildTree function to build a BST with no dupes
+- [x] Insert and delete that do their respective things
+- [x] Find that returns a node with a value
+- [x] Pre/In/Post order traversal with a callback to do something with the node
+- [x] Level order traversal
+- [x] Height and depth that return the height/depht for a node with a given value
+- [x] isBalanced to see if tree is balanced
+- [x] rebalance to rebalance the tree
 
 
 How to use this project
 -----------------------
-Visit the live version <a href="" rel="noopener noreferrer">here</a>! Or clone the repo and run `npm run build` in the project's root directory, then visit dist/index.html on your favorite browser. (or if the project is just static, open index.html on your favorite browser!)
+Clone the repo and run `node main.js`.
 
 Credits
 -------
-<a href="" rel="noopener noreferrer">Something by some person</a>
-<br>
-<a href="" rel="noopener noreferrer">Another thing by another person</a>
-<br>
+Me.
