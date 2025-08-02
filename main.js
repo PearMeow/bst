@@ -1,0 +1,41 @@
+import Tree from "./bst.js";
+
+let bst = new Tree([9, 8, 7, 6, 5, 3, 1, 2, 3, 4, 5]);
+
+bst.log();
+
+bst.depth(9);
+bst.log();
+console.log(bst.find(9));
+console.log(bst.find(7));
+console.log(bst.height());
+bst.insert(40);
+bst.log();
+let theString = "";
+bst.inOrderForEach((node) => (theString += `${node.data} `));
+console.log(theString);
+theString = "";
+bst.preOrderForEach((node) => (theString += `${node.data} `));
+console.log(theString);
+theString = "";
+bst.postOrderForEach((node) => (theString += `${node.data} `));
+console.log(theString);
+theString = "";
+bst.levelOrderForEach((node) => (theString += `${node.data} `));
+console.log(theString);
+bst.deleteItem(7);
+bst.log();
+bst.deleteItem(8);
+bst.log();
+bst.deleteItem(9);
+bst.log();
+bst.insert(90);
+bst.insert(91);
+bst.insert(92);
+bst.insert(93);
+bst.insert(94);
+bst.log();
+console.log(bst.isBalanced());
+bst.rebalance();
+bst.log();
+console.log(bst.isBalanced());
