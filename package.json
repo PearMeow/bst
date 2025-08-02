@@ -1,0 +1,26 @@
+{
+  "name": "bst",
+  "version": "1.0.0",
+  "description": "BST",
+  "main": "recursion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PearMeow/bst.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PearMeow/bst/issues"
+  },
+  "homepage": "https://github.com/PearMeow/bst#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint_d": "^14.3.0",
+    "prettier": "^3.6.2"
+  }
+}
